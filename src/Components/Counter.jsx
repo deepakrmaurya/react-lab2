@@ -11,8 +11,8 @@ const Counter = () => {
   };
 
   return (
-    <div className="bg-amber-400 m-10 border-2 w-[25%] py-10 px-[7%] rounded-2xl">
-      <p className="font-bold text-2xl pl-2">Counter</p>
+    <div className="bg-amber-400 m-10 border-2 w-[25%] py-10 px-[6%] rounded-2xl">
+      <p className="font-bold text-2xl pl-1">Counter</p>
       <button
         onClick={decrement}
         className="bg-black text-white border-black rounded-2xl border-2 px-3 mr-2"
