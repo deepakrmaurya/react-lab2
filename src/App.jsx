@@ -3,18 +3,29 @@ import Counter from "./Components/Counter";
 import HelloWorld from "./Components/HelloWorld";
 import LiveCharaCount from "./Components/LiveCharaCount";
 import LoginData from "./Components/LoginData";
+import MoodSelector from "./Components/MoodSelector";
 import Name from "./Components/Name";
 import ProductRender from "./Components/ProductRender";
 import Profile from "./Components/Profile";
+import RandomBG from "./Components/RandomBG";
 import RandomQuote from "./Components/RandomQuote";
+import SimpleQuoteCard from "./Components/SimpleQuoteCard";
+import SocialMediaPostProps from "./Components/SocialMediaPostProps";
 import StopWatch from "./Components/StopWatch";
 import ToDo from "./Components/ToDo";
 import ToggleButton from "./Components/ToggleButton";
 import TogglePara from "./Components/TogglePara";
+import WeatherMainContainer from "./Components/WeatherMainContainer";
 
 function App() {
   return (
     <div>
+      <RandomBG />
+      {/*
+      <MoodSelector />
+      <SocialMediaPostProps />
+      <WeatherMainContainer />
+      <SimpleQuoteCard />
       <StopWatch />
       <RandomQuote />
       <ProductRender />
@@ -40,7 +51,7 @@ function App() {
         name={"Rohit Gusai"}
         title={"💻 Full Stack Developer"}
       />
-      <HelloWorld />
+      <HelloWorld /> */}
     </div>
   );
 }
