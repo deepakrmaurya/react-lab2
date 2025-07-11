@@ -1,10 +1,15 @@
 import "./App.css";
 import Counter from "./Components/Counter";
+import DropDown from "./Components/DropDown";
+import FontSizeRandom from "./Components/FontSizeRandom";
 import HelloWorld from "./Components/HelloWorld";
 import LiveCharaCount from "./Components/LiveCharaCount";
 import LoginData from "./Components/LoginData";
 import MoodSelector from "./Components/MoodSelector";
+import MultipleInputForm from "./Components/MultipleInputForm";
 import Name from "./Components/Name";
+import NewsLetterSignUp from "./Components/NewsLetterSignUp";
+import ProductFilter from "./Components/ProductFilter";
 import ProductRender from "./Components/ProductRender";
 import Profile from "./Components/Profile";
 import RandomBG from "./Components/RandomBG";
@@ -20,16 +25,25 @@ import WeatherMainContainer from "./Components/WeatherMainContainer";
 function App() {
   return (
     <div>
-      <RandomBG />
+      <ProductFilter />
       {/*
+
+      //REVISIT
+      <DropDown />
+      <StopWatch />
+      <ToDo />
+
+      <MultipleInputForm />
+      <NewsLetterSignUp />
+      <FontSizeRandom />
+      <RandomBG />
       <MoodSelector />
       <SocialMediaPostProps />
       <WeatherMainContainer />
       <SimpleQuoteCard />
-      <StopWatch />
       <RandomQuote />
       <ProductRender />
-      <ToDo />
+
       <LiveCharaCount />
       <LoginData />
       <TogglePara />
