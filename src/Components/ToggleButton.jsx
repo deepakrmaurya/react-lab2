@@ -6,6 +6,7 @@ const ToggleButton = () => {
   const handleToggle = () => {
     setToggleBtn(!toggleBtn);
   };
+
   return (
     <div className="m-10 px-11 py-4 rounded-2xl border-2 w-50 bg-amber-400">
       Toggle Button

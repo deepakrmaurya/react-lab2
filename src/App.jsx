@@ -1,6 +1,7 @@
 import "./App.css";
 import Counter from "./Components/Counter";
 import DropDown from "./Components/DropDown";
+import FAQ from "./Components/FAQ";
 import FontSizeRandom from "./Components/FontSizeRandom";
 import HelloWorld from "./Components/HelloWorld";
 import LiveCharaCount from "./Components/LiveCharaCount";
@@ -17,6 +18,7 @@ import RandomQuote from "./Components/RandomQuote";
 import SimpleQuoteCard from "./Components/SimpleQuoteCard";
 import SocialMediaPostProps from "./Components/SocialMediaPostProps";
 import StopWatch from "./Components/StopWatch";
+import TabNavigation from "./Components/TabNavigation";
 import ToDo from "./Components/ToDo";
 import ToggleButton from "./Components/ToggleButton";
 import TogglePara from "./Components/TogglePara";
@@ -25,13 +27,17 @@ import WeatherMainContainer from "./Components/WeatherMainContainer";
 function App() {
   return (
     <div>
-      <ProductFilter />
+      <TabNavigation />
       {/*
 
       //REVISIT
       <DropDown />
       <StopWatch />
-      <ToDo />
+      <ToDo />      
+      <FAQ />      
+      <ProductRender /> 
+
+
 
       <MultipleInputForm />
       <NewsLetterSignUp />
