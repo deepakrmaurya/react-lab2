@@ -14,6 +14,7 @@ import ProductFilter from "./Components/ProductFilter";
 import ProductRender from "./Components/ProductRender";
 import Profile from "./Components/Profile";
 import RandomBG from "./Components/RandomBG";
+import RandomDogImage from "./Components/RandomDogImage";
 import RandomQuote from "./Components/RandomQuote";
 import SimpleQuoteCard from "./Components/SimpleQuoteCard";
 import SocialMediaPostProps from "./Components/SocialMediaPostProps";
@@ -22,12 +23,12 @@ import TabNavigation from "./Components/TabNavigation";
 import ToDo from "./Components/ToDo";
 import ToggleButton from "./Components/ToggleButton";
 import TogglePara from "./Components/TogglePara";
+import UserList from "./Components/UserList";
 import WeatherMainContainer from "./Components/WeatherMainContainer";
 
 function App() {
   return (
     <div>
-      <TabNavigation />
       {/*
 
       //REVISIT
@@ -37,8 +38,12 @@ function App() {
       <FAQ />      
       <ProductRender /> 
 
+      // fetch - useEffect
+      <UserList />
+      <RandomDogImage />
 
 
+      <TabNavigation />
       <MultipleInputForm />
       <NewsLetterSignUp />
       <FontSizeRandom />
