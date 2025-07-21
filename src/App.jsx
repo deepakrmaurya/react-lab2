@@ -24,11 +24,13 @@ import ToDo from "./Components/ToDo";
 import ToggleButton from "./Components/ToggleButton";
 import TogglePara from "./Components/TogglePara";
 import UserList from "./Components/UserList";
+import Weather from "./Components/Weather";
 import WeatherMainContainer from "./Components/WeatherMainContainer";
 
 function App() {
   return (
     <div>
+      <Weather />
       {/*
 
       //REVISIT
